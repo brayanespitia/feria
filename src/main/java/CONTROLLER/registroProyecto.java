@@ -16,6 +16,8 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author PC MASTER RACE
  */
+
+@WebServlet(name = "RegistroTiendaController", urlPatterns = {"/RegistroProyecto"})
 public class registroProyecto {
     
 }
