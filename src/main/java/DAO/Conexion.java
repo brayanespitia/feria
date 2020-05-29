@@ -20,7 +20,7 @@ public class Conexion {
 
     private Conexion() {
         em = this.getEm();
-        this.bd = Persistence.createEntityManagerFactory("tiendauPU");
+        this.bd = Persistence.createEntityManagerFactory("feriaPU");
     }
 
     public static Conexion getConexion() {
@@ -38,7 +38,7 @@ public class Conexion {
 
         if (em == null) {
 
-            EntityManagerFactory emf = Persistence.createEntityManagerFactory("tiendauPU");
+            EntityManagerFactory emf = Persistence.createEntityManagerFactory("feriaPU");
             em = emf;
 
         }
