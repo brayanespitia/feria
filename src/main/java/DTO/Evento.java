@@ -72,6 +72,10 @@ public class Evento implements Serializable {
         this.fecha = fecha;
     }
 
+    public Evento(String nombre, int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public Integer getId() {
         return id;
     }
